@@ -12,6 +12,7 @@
 		1B56D8421D4BCD6F00C242D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B56D8401D4BCD6F00C242D6 /* LaunchScreen.storyboard */; };
 		1B56D84F1D4BCFC100C242D6 /* InternetStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B56D84D1D4BCFC100C242D6 /* InternetStoryboard.storyboard */; };
 		1B56D8501D4BCFC100C242D6 /* InternetsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B56D84E1D4BCFC100C242D6 /* InternetsViewController.swift */; };
+		78AEE49D1D6C706D00D28DE6 /* TemperatureAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78AEE49C1D6C706D00D28DE6 /* TemperatureAPIClient.swift */; };
 		B6118252FA9607EA1B347F34 /* Pods_iOS_Swift_Assessment_Internet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ED868D297F7A3403252E636 /* Pods_iOS_Swift_Assessment_Internet.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,7 @@
 		1B56D8431D4BCD6F00C242D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1B56D84D1D4BCFC100C242D6 /* InternetStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = InternetStoryboard.storyboard; sourceTree = "<group>"; };
 		1B56D84E1D4BCFC100C242D6 /* InternetsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InternetsViewController.swift; sourceTree = "<group>"; };
+		78AEE49C1D6C706D00D28DE6 /* TemperatureAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureAPIClient.swift; sourceTree = "<group>"; };
 		8ED868D297F7A3403252E636 /* Pods_iOS_Swift_Assessment_Internet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Swift_Assessment_Internet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		91539765B2CC14350B907931 /* Pods-iOS-Swift-Assessment-Internet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Swift-Assessment-Internet.release.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Swift-Assessment-Internet/Pods-iOS-Swift-Assessment-Internet.release.xcconfig"; sourceTree = "<group>"; };
 		B3D3BD7A91A3311D9C7FD4C8 /* Pods-iOS-Swift-Assessment-Internet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS-Swift-Assessment-Internet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-iOS-Swift-Assessment-Internet/Pods-iOS-Swift-Assessment-Internet.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			isa = PBXGroup;
 			children = (
 				1B56D8371D4BCD6F00C242D6 /* AppDelegate.swift */,
+				78AEE49C1D6C706D00D28DE6 /* TemperatureAPIClient.swift */,
 				1B56D84D1D4BCFC100C242D6 /* InternetStoryboard.storyboard */,
 				1B56D84E1D4BCFC100C242D6 /* InternetsViewController.swift */,
 				1B56D83E1D4BCD6F00C242D6 /* Assets.xcassets */,
@@ -210,6 +213,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78AEE49D1D6C706D00D28DE6 /* TemperatureAPIClient.swift in Sources */,
 				1B56D8381D4BCD6F00C242D6 /* AppDelegate.swift in Sources */,
 				1B56D8501D4BCFC100C242D6 /* InternetsViewController.swift in Sources */,
 			);
